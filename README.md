@@ -1,36 +1,37 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## HISTORIAL DE CAMBIOS
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+HISTORIAL
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+VERSION[1.0.0] 
+-Vincular la estructura de la base de datos con los datos previos
+-Implementacion de la vista productos
+-Implmentacion del boton para agregar orden
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+VERSION[1.1.0]
+-Agregar funcionalidad al carrito
+-Modificar las cantidades agregadas de productos
+-Comfirmacion yvisualizacion de pedidos finalizados
 
-## Learn More
+VERSION[1.2.0]
+-Visualizacion de productos existentes para el administrador
+-Añadir un producto
+-Buscar por nombre un producto
+-Validadicon de datos
+-Mostrar el contenido de la orden
 
-To learn more about Next.js, take a look at the following resources:
+VERSION[1.3.0]
+-Crear el paginador
+-Añadir paginador por numeros
+-Mostrar las categorias en el formulario
+-Validar las imagenes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+VERSION[1.4.0]
+-Crear el EndPoint de la Api
+-Deply del proyecto en VERCEL
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
